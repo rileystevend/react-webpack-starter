@@ -1,7 +1,7 @@
 {
-  "name": "react-webpack-starter",
-  "version": "1.2.4",
-  "description": "best react webpack, babel, jest, eslint starter project",
+  "name": "personalSite",
+  "version": "1.0.0",
+  "description": "personal website",
   "main": "index.jsx",
   "engines": {
     "node": "8"
@@ -16,10 +16,9 @@
     "jest:watch": "./node_modules/.bin/jest --watch",
     "lint": "./node_modules/.bin/eslint src/js test --ext .js --ext .jsx",
     "lint:watch": "./node_modules/.bin/esw src/js test --ext .js --ext .jsx -w --color --clear",
-    "lint:fix": "./node_modules/.bin/eslint src/js test --ext .js --ext .jsx --fix",
-    "setup": "node ./.setup.js && yarn init && yarn"
+    "lint:fix": "./node_modules/.bin/eslint src/js test --ext .js --ext .jsx --fix"
   },
-  "author": "Oscar Morrison <github@oscarmorrison.com>",
+  "author": "Steven Riley <rileystevend@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "react": "^16.0.0",
@@ -56,9 +55,6 @@
   "directories": {
     "test": "test"
   },
-  "repository": "git+https://github.com/oscarmorrison/react-webpack-starter.git",
-  "bugs": {
-    "url": "https://github.com/oscarmorrison/react-webpack-starter/issues"
-  },
-  "homepage": "https://github.com/oscarmorrison/react-webpack-starter#readme"
+  "repository": "https://github.com/rileystevend/react-webpack-starter.git",
+  "private": false
 }
